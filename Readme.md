@@ -13,7 +13,7 @@ Paper: https://elifesciences.org/articles/100739
 
 [Code](https://github.com/davidpl2/DeePosit)
 
-
+If you want to promote research on 7Dup, please contact me: davidpelz at gmail.com
 
 
 
