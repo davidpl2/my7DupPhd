@@ -1,10 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Peles - 7q11.23 Duplication Syndrome Research</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --bg: #fdfdfd;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: -3rem auto 3rem;
+            padding: 2rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .contact-banner {
+            background: #f8f9fa;
+            border-left: 5px solid var(--secondary);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        .contact-banner a {
+            color: var(--secondary);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .paper-list {
+            list-style: none;
+            padding: 0;
+        }
+        .paper-item {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        .paper-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            display: block;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .links {
+            margin-top: 0.5rem;
+        }
+        .btn {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-paper { background: #3498db; color: white; }
+        .btn-code { background: #27ae60; color: white; }
+        .btn-soon { background: #95a5a6; color: white; cursor: default; }
+        .btn:hover:not(.btn-soon) { opacity: 0.8; }
+        
+        footer { text-align: center; padding: 2rem; color: #777; font-size: 0.9rem; }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This page is hosted on GitHub Pages.</p>
+
+<div class="header">
+    <h1>Papers and links from my PhD studies on 7q11.23 Duplication Syndrome (7Dup)</h1>
+</div>
+
+<div class="container">
+    <div class="contact-banner">
+        If you want to promote research on 7Dup, please contact me: 
+        <a href="mailto:davidpelz@gmail.com">davidpelz@gmail.com</a>
+    </div>
+
+    <ul class="paper-list">
+        <li class="paper-item">
+            <span class="paper-title">Contrasting behavioral and physiological effects of Gtf2i duplication and deletion in mouse models of the 7q11.23 Duplication and Williams-Beuren Syndromes</span>
+            <div class="links">
+                <a href="https://www.biorxiv.org/content/10.1101/2025.11.13.688274v1" class="btn btn-paper" target="_blank">Paper (Pre-print)</a>
+                <span class="btn btn-soon">Code coming soon</span>
+            </div>
+        </li>
+
+        <li class="paper-item">
+            <span class="paper-title">Early maturation and hyperexcitability is a shared phenotype of cortical neurons derived from different ASD-associated mutations</span>
+            <div class="links">
+                <a href="https://www.nature.com/articles/s41398-023-02535-x" class="btn btn-paper" target="_blank">Paper</a>
+            </div>
+        </li>
+
+        <li class="paper-item">
+            <span class="paper-title">DeePosit, an AI-based tool for detecting mouse urine and fecal depositions from thermal video clips of behavioral experiments</span>
+            <div class="links">
+                <a href="https://elifesciences.org/articles/100739" class="btn btn-paper" target="_blank">Paper</a>
+                <a href="https://github.com/davidpl2/DeePosit" class="btn btn-code" target="_blank">Code on GitHub</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<footer>
+    &copy; 2026 David Pelz • Built with GitHub Pages
+</footer>
+
 </body>
 </html>
